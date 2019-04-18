@@ -18,7 +18,7 @@ const settings = {
 		new HTMLPlugin({
 			template: `${__dirname}/src/index.html`,
 		}),
-		new CleanPlugin(),
+		// new CleanPlugin(),
 	],
 
 	resolve: {
